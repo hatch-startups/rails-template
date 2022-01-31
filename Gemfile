@@ -47,6 +47,20 @@ gem "bootsnap", require: false
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
+# gem 'mini_magick', '~> 4.11' # Manipulate images with minimal use of memory via ImageMagick / GraphicsMagick
+# gem 'aws-sdk-s3', '~> 1.111', '>= 1.111.3'
+# gem 'aws-sdk-ses', '~> 1.45'
+# gem 'aws-sdk-cloudfront', '~> 1.61'
+
+gem 'activerecord-import', '~> 1.3'
+gem 'draper', '~> 4.0', '>= 4.0.2'
+gem 'devise', '~> 4.8', '>= 4.8.1'
+gem 'exception_notification', '~> 4.5'
+gem 'hashids', '~> 1.0', '>= 1.0.6'
+gem 'httparty', '~> 0.20.0'
+gem 'jwt', '~> 2.3'
+gem 'kaminari', '~> 1.2', '>= 1.2.2'
+gem 'nokogiri', '~> 1.13', '>= 1.13.1'
 gem 'rails_admin', '~> 3.0.0.beta2' # 2.2.1 does not support Rails 7
 gem 'sassc-rails' # Added by rails_admin gem
 
@@ -70,5 +84,7 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  #
+  gem 'brakeman', '~> 5.2', '>= 5.2.1'
 end
 

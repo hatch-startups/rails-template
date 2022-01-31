@@ -1,5 +1,3 @@
-# README
-
 ## MS_TEMPLATE
 App template for Microservices.
 
@@ -16,3 +14,15 @@ The file `.env.example` contains the ENV VARS required for this app.
 Rename the `.env.example` file to `.env` and replace any ENV VARS value you need.
 
 **Please add in `.env.example` any new ENV VARS.**
+
+
+### Install Instructions
+
+#### LOCAL
+- Install the Ruby Version above mentioned.
+- Install the PostgreSQL Database Service.
+- Clone this repo.
+- In a terminal, go to the root folder of this repo and run `bundle install`
+- Rename the `.env.example` file to `.env` and replace any ENV VARS value you need (Database credentials for example).
+- Run `bin/rails db:create` for database creation.
+- Run `bin/rails s` to run the app. this will listen on port 3000 by default. can be changed in `.env` file.
