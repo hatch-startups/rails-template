@@ -8,6 +8,7 @@ App template for Microservices.
 - Ruby 3.1.0
 - Rails 7.0.1
 - Rspec
+- Rail_Admin
 
 
 ### ENV VARS

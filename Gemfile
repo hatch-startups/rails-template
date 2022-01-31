@@ -47,6 +47,9 @@ gem "bootsnap", require: false
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
+gem 'rails_admin', '~> 3.0.0.beta2' # 2.2.1 does not support Rails 7
+gem 'sassc-rails' # Added by rails_admin gem
+
 group :development, :test do
   gem 'dotenv-rails', '~> 2.7', '>= 2.7.6'
 
