@@ -1,3 +1,26 @@
 require:
   - rubocop-rails
   - rubocop-rspec
+  - rubocop-performance
+AllCops:
+  TargetRubyVersion: 3.1.0
+  NewCops: enable
+  Exclude:
+    - "app/views/**/*"
+    - "bin/**/*"
+    - "config/**/*"
+    - "db/**/*"
+    - "log/**/*"
+    - "public/**/*"
+    - "tmp/**/*"
+    - "vendor/**/*"
+
+# Style Cops
+Style/BlockDelimiters:
+  Exclude:
+    - 'spec/**/*'
+
+# Layout Cops
+Layout/ArgumentAlignment:
+  Exclude:
+    - 'config/initializers/*'

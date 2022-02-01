@@ -26,3 +26,29 @@ Rename the `.env.example` file to `.env` and replace any ENV VARS value you need
 - Rename the `.env.example` file to `.env` and replace any ENV VARS value you need (Database credentials for example).
 - Run `bin/rails db:create` for database creation.
 - Run `bin/rails s` to run the app. this will listen on port 3000 by default. can be changed in `.env` file.
+
+### Linters/analyzers
+
+#### Rubocop
+This project uses rubocop as code analyzer and and code formatter, you can run rubocop with:
+```
+$ cd path/to/this/project
+$ rubocop
+```
+
+For auto-correct offenses you can run (this will only correct safe offenses):
+```
+$ rubocop -a
+```
+
+### Brakeman
+This project uses brakeman as security vulnerability scanner, you can run brakeman with:
+```
+$ cd path/to/this/project
+$ brakeman
+```
+
+You can generate HTML report with:
+```
+$ brakeman -o report.html
+```
