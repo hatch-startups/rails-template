@@ -53,6 +53,7 @@ gem "bootsnap", require: false
 # gem 'aws-sdk-cloudfront', '~> 1.61'
 
 gem 'activerecord-import', '~> 1.3'
+gem 'apipie-rails', '~> 0.5.19'
 gem 'draper', '~> 4.0', '>= 4.0.2'
 gem 'devise', '~> 4.8', '>= 4.8.1'
 gem 'exception_notification', '~> 4.5'
