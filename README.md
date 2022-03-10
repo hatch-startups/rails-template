@@ -4,7 +4,7 @@ App template for Microservices.
 
 ### Components
 - Ruby 3.1.0
-- Rails 7.0.1
+- Rails 7.0
 - Rspec
 - Rail_Admin
 
@@ -52,3 +52,13 @@ You can generate HTML report with:
 ```
 $ brakeman -o report.html
 ```
+
+### API Documentation
+
+#### ApiPie
+This project uses `apipie-rails` gem for api documentation. You can generate the documentation with the command:
+
+```
+$ bin/rake apipie:static
+```
+This documentation will be saved in `doc` folder
