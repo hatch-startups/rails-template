@@ -58,7 +58,7 @@ gem 'hashids', '~> 1.0', '>= 1.0.6'
 gem 'httparty', '~> 0.20.0'
 gem 'jwt', '~> 2.3'
 gem 'kaminari', '~> 1.2', '>= 1.2.2'
-gem 'nokogiri', '~> 1.13', '>= 1.13.3'
+gem 'nokogiri', '~> 1.13'
 gem 'rails_admin', '~> 3.0.0.rc3' # 2.2.1 does not support Rails 7
 gem 'sassc-rails' # Added by rails_admin gem
 
